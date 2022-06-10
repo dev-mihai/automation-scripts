@@ -10,7 +10,7 @@ resource "random_id" "name" {
 
 #Create Resource Group
 resource "azurerm_resource_group" "resourceGroup" {
-  name     = ""local.name""
+  name     = "local.name"
   location = var.region
 }
  
