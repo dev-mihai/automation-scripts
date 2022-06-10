@@ -1,2 +1,1 @@
-#! /bin/bash
-packer version
+echo "hi"
