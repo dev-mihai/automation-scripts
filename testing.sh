@@ -1,1 +1,2 @@
-sudo echo "foo"
+#! /bin/bash
+packer version
